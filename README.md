@@ -5,6 +5,8 @@ http://docs.vagrantup.com/v2/provisioning/chef_solo.html
 
 ※ 今回のchef-soloレシピは超絶シンプルなものなので、data_bagsとか使ってませんので、基礎から学びたい人は書籍での学習をオススメします。
 
+個人的な意見として、chef-soloは便利なのですが、ちょっとした処理をしたいだけなのにコードにして結構な量を書かないといけないところが難点に感じています。なので、vagrantみたいな使い捨て環境向けのcookbooksは、今回くらいライトでいいのかなぁと思っています。
+
 # Vagrantfileの書き方
 
 Vagrantfileで以下のように記述すれば、run_listで指定したrecipeが実行されるでしょう。
